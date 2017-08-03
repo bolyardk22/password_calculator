@@ -1,0 +1,10 @@
+Hello, <%=first_name%>! What is your age?
+
+<form method = "post" action = "/age">
+	<input type = "number" min "0" max = "150" name = "age">
+	<input type = "hidden" name = "user_name" value = <%=user_name%>>
+	<input type = "hidden" name = "password" value = <%=password%>>
+	<input type = "hidden" name = "first_name" value = <%=first_name%>>
+	<input type = "hidden" name = "last_name" value = <%=last_name%>>
+	<input type = "submit">
+</form>

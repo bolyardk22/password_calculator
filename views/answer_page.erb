@@ -1,0 +1,43 @@
+<table style="width:50%">
+	<tr>
+		<td>First Name</td>
+		<td><%=first_name%></td> 
+	</tr>
+
+	<tr>
+		<td>Last Name</td>
+		<td><%=last_name%></td> 
+	</tr>
+
+	<tr>
+		<td>Age</td>
+		<td><%=age%></td> 
+	</tr>
+
+	<tr>
+		<td>Hair Color</td>
+		<td><%=hair_color%></td> 
+	</tr>
+
+	<tr>
+		<td>Eye Color</td>
+		<td><%=eye_color%></td> 
+	</tr>
+</table>
+
+<%=num1%> <%=operator%> <%=num2%> = <%=calculation%>
+
+<form method = "post" action = "/numbers">
+	<input type = "hidden" name = "user_name" value = <%=user_name%>>
+	<input type = "hidden" name = "password" value = <%=password%>>
+	<input type = "hidden" name = "first_name" value = <%=first_name%>>
+	<input type = "hidden" name = "last_name" value = <%=last_name%>>
+	<input type = "hidden" name = "age" value = <%=age%>>
+	<input type = "hidden" name = "hair_color" value = <%=hair_color%>>
+	<input type = "hidden" name = "eye_color" value = <%=eye_color%>>
+	<input type = "hidden" name = "radio_buttons" value = <%=radio_buttons%>>
+	<input type = "hidden" name = "num1" value = <%=num1%>>
+	<input type = "hidden" name = "num2" value = <%=num2%>>
+	<input type = "hidden" name = "calculation" value = <%=calculation%>>
+	<input type = "hidden" name = "operator" value = <%=operator%>>
+</form>

@@ -1,0 +1,15 @@
+Hello, <%=first_name%>! You chose <%=radio_buttons%>. What two numbers would you like to use?
+
+<form method = "post" action = "/numbers">
+	<input type = "numbers" name = "num1">
+	<input type = "numbers" name = "num2">
+	<input type = "hidden" name = "user_name" value = <%=user_name%>>
+	<input type = "hidden" name = "password" value = <%=password%>>
+	<input type = "hidden" name = "first_name" value = <%=first_name%>>
+	<input type = "hidden" name = "last_name" value = <%=last_name%>>
+	<input type = "hidden" name = "age" value = <%=age%>>
+	<input type = "hidden" name = "hair_color" value = <%=hair_color%>>
+	<input type = "hidden" name = "eye_color" value = <%=eye_color%>>
+	<input type = "hidden" name = "radio_buttons" value = <%=radio_buttons%>>
+	<input type = "submit">
+</form>

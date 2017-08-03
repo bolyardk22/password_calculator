@@ -1,0 +1,16 @@
+Hello, <%=first_name%>! What function would you like to perform?
+
+<form method="post" action="/radio_buttons">
+	<input type="radio" name="radio_buttons" value="addition" /> Addition </br>
+	<input type="radio" name="radio_buttons" value="subtraction" /> Subtraction </br>
+	<input type="radio" name="radio_buttons" value="multiplication" /> Multiplication </br>
+   	<input type="radio" name="radio_buttons" value="division" /> Division </br>
+   	<input type = "hidden" name = "user_name" value = <%=user_name%>>
+	<input type = "hidden" name = "password" value = <%=password%>>
+	<input type = "hidden" name = "first_name" value = <%=first_name%>>
+	<input type = "hidden" name = "last_name" value = <%=last_name%>>
+	<input type = "hidden" name = "age" value = <%=age%>>
+	<input type = "hidden" name = "hair_color" value = <%=hair_color%>>
+	<input type = "hidden" name = "eye_color" value = <%=eye_color%>>
+  	<input type="submit">
+</form>
